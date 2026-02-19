@@ -54,4 +54,24 @@ body{
       color: white;
       text-decoration: none;
     }
+    #video-section {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
   }
+  section iframe {
+      max-width: 100%;
+      width: 600;
+      height: auto;
+      border-radius: 20px;
+      border: #20283a 5px solid;
+  }
+ footer, header {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffffff;
+      color: white;
+ }     
+}
+
+
